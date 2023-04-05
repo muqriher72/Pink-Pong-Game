@@ -179,29 +179,6 @@ void movePaddles () { // method for moving the 2 paddles right and left using bo
 
 void computerPlayer () { // method for moving the yellow paddle for the computer player right and left using boolean expressions.
   paddleX = ballX + xP1Speed; // moves the yellow paddle horizontally with the ball's x position and its horizontal speed.
-  /*
-  if (ballX >= ballSize && ballX <= width/4 && paddleX >= width/4 && paddleX <= width/2) {
-   paddleX =- 200 ; // subtracts value stored in paddleX position to move it left.
-   } else if (ballX >= width/4 && ballX <= width/2 && paddleX >= width/2 && paddleX <= width*(3/4)) {
-   paddleX =+ 200 ;
-   } else if (ballX >= width/4 && ballX <= width/2 && paddleX <= width && paddleX >= width*(3/4)) {
-   paddleX =+ 400 ;
-   } else if (ballX >= width/4 && ballX <= width/2 && paddleX >= ballSize && paddleX <= width/4) {
-   paddleX =+ 400 ;
-   } else if (ballX <= width*(3/4) && ballX >= width/2 && paddleX >= width*(3/4)) {
-   paddleX =- 200 ;
-   } else if (ballX <= width*(3/4) && ballX >= width/2 && paddleX <= width/4) {
-   paddleX =+ 620 ;
-   } else if (ballX <= width*(3/4) && ballX >= width/2 && paddleX <= width/2 && paddleX >= width/4) {
-   paddleX =+ 210 ; 
-   } else if (ballX >= width*(3/4) && paddleX <= width/4) {
-   paddleX =+ 200 ;
-   } else if (ballX >= width*(3/4) && paddleX >= width/4 && paddleX <= width/2) {
-   paddleX =+ 410 ;
-   } else if (ballX >= width*(3/4) && paddleX <= width*(3/4) && paddleX >= width/2) {
-   paddleX =+ 210 ;
-   } 
-   */
 }
 
 void checkPaddlesHitEdge (int pX) { // method to make the 2 paddles bounce off the edge of the window and stay in the window frame.
