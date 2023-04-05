@@ -3,7 +3,6 @@
  *                         *
  * Heraa_Muqri_A3.pde      *
  *                         *
- * ICS 3U1 - Assignment 3  *
  *                         *
  *     Pong Assignment     *
  * A program that runs a   *
